@@ -18,7 +18,7 @@ export default function VideoModal(){
             channel="youtube"
             youtube={{ mute: 0, autoplay: 0 }}
             isOpen={isOpen}
-            videoId="yba7hPeTSjk"
+            videoId="9EPxkyfm8Ec"
             onClose={() => setOpen(false)} 
         />
         </>
