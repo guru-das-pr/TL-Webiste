@@ -8,7 +8,7 @@ import About from "../components/services/about";
 import PricingFive from "../components/pricing/pricingFive";
 import Partners from "../components/partners";
 import FooterSeven from "../components/footer/footerSeven";
-import ScrollTop from "../components/scrollTop";
+import ScrollTop from "../components/scrollTop"; 
 
 export default function ServicesTwo(){
     return(

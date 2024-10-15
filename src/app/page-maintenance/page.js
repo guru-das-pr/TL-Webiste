@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/image"; 
 
 import {AiOutlineShoppingCart, AiOutlineDribbble, AiOutlineBehance,AiFillLinkedin,BiLogoFacebook,AiOutlineInstagram,AiOutlineTwitter,FiMail,AiOutlineFile} from "../assets/icons/vander"
 import Timer from '../components/timer';

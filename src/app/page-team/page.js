@@ -6,7 +6,7 @@ import {FiFacebook,FiInstagram,FiTwitter,FiLinkedin} from "../assets/icons/vande
 import NavbarTwo from "../components/navbar/navbarTwo";
 import Team from "../components/team";
 import FooterSeven from "../components/footer/footerSeven";
-import ScrollTop from "../components/scrollTop";
+import ScrollTop from "../components/scrollTop"; 
 
 import { teamData } from "../data";
 

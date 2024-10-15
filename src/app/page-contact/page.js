@@ -4,7 +4,7 @@ import NavbarTwo from "../components/navbar/navbarTwo";
 
 import {FiPhone, FiMail,FiMapPin} from '../assets/icons/vander'
 import FooterSeven from "../components/footer/footerSeven";
-import ScrollTop from "../components/scrollTop";
+import ScrollTop from "../components/scrollTop"; 
 
 export default function Contact(){
     return(

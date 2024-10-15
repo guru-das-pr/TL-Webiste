@@ -10,7 +10,7 @@ import VideoModal from "../components/aboutUs/videoModal";
 import Counter from "../components/aboutUs/counter";
 import FooterSeven from "../components/footer/footerSeven";
 import ScrollTop from "../components/scrollTop";
-
+ 
 import {AiOutlineCheckCircle,FiArrowRight} from '../assets/icons/vander'
 import { aboutData } from "../data/aboutUs";
 

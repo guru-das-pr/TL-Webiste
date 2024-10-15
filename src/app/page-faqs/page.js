@@ -4,7 +4,7 @@ import NavbarTwo from "../components/navbar/navbarTwo";
 import PricingFive from "../components/pricing/pricingFive";
 import FaqTwo from "../components/faqTwo";
 import FooterSeven from "../components/footer/footerSeven";
-import ScrollTop from "../components/scrollTop";
+import ScrollTop from "../components/scrollTop"; 
 
 export default function Faq(){
     return(

@@ -5,7 +5,7 @@ import Image from "next/image";
 import ScrollTop from "../components/scrollTop";
 import FooterSix from "../components/footer/footerSix";
 import BlogSidebar from "../components/blog/blogSidebar";
-import NavbarTwo from "../components/navbar/navbarTwo";
+import NavbarTwo from "../components/navbar/navbarTwo"; 
 
 import { BlogImageData } from "../data/data";
 
