@@ -17,6 +17,7 @@ import Counter from "./components/business/counter";
 
 import { aboutData } from "./data/business";
 import { AiOutlineCheckCircle } from "react-icons/ai";
+import { FaCircle } from "react-icons/fa";
 
 export default function IndexBusiness() {
     return (
@@ -40,19 +41,19 @@ export default function IndexBusiness() {
                                 <h6 className="text-primary">Our Key Services</h6>
                                 <h4 className="title fw-semibold mt-2 mb-3">We specialize in delivering cutting-edge solutions across various domains.</h4>
                             </div>
-                            <div className="row">
-                                {aboutData.map((item, index) => {
-                                    let Icon = item.icon
-                                    return (
-                                        <div className="col-lg-6 col-12 mb-4 pt-2" key={index}>
-                                            <div className="card features feature-primary">
-                                                <Icon className="icon h1 d-block mb-3" />
-                                                <Link href="/page-single-service" className="h5 title text-dark">{item.title}</Link>
-                                                <p className="text-muted mt-2 mb-0">{item.desc}</p>
+                            <div className="row g-3">
+                                {aboutData.map((item, index) => (
+                                    <div className="col-lg-6 col-12" key={index}>
+                                        <div className="card features feature-primary h-100">
+                                            <div className="card-body py-2 px-3 d-flex align-items-center">
+                                                <FaCircle className="text-primary me-2 flex-shrink-0" size={6} />
+                                                <Link href="/page-single-service" className="h6 title text-dark mb-0">
+                                                    {item.title}
+                                                </Link>
                                             </div>
                                         </div>
-                                    )
-                                })}
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
