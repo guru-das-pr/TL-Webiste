@@ -1,27 +1,27 @@
-import {RiBarChartLine,BiReceipt,TbCurrencyBitcoin, BiBriefcaseAlt2, } from '../assets/icons/vander' 
+import {AiOutlineCode, AiOutlineCloudServer, AiOutlineSearch, AiOutlineLock} from '../assets/icons/vander' 
 
 export const aboutData = [
     {
-        icon:RiBarChartLine,
-        title:'Business Analysis',
-        desc:'Due to its widespread use as filler text for layouts, non-readability is of great importance'
+        icon: AiOutlineCode,
+        title: 'Software Development',
+        desc: 'Custom software solutions tailored to meet your business needs.'
     },
     {
-        icon:BiReceipt,
-        title:'Estate Planning',
-        desc:'Due to its widespread use as filler text for layouts, non-readability is of great importance'
+        icon: AiOutlineCloudServer,
+        title: 'IT Consulting',
+        desc: 'Expert advice to optimize your IT infrastructure.'
     },
     {
-        icon:TbCurrencyBitcoin,
-        title:'Cryptocurrency',
-        desc:'Due to its widespread use as filler text for layouts, non-readability is of great importance'
+        icon: AiOutlineSearch,
+        title: 'Digital Marketing',
+        desc: 'Comprehensive digital marketing strategies to enhance your online presence and drive growth.'
     },
     {
-        icon:BiBriefcaseAlt2,
-        title:'Security Enhanced',
-        desc:'Due to its widespread use as filler text for layouts, non-readability is of great importance'
+        icon: AiOutlineLock,
+        title: 'Security Enhanced',
+        desc: 'Robust security measures to protect your digital assets.'
     },
-]
+];
 
 export const counterData = [
     {
