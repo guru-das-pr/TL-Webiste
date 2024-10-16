@@ -62,34 +62,70 @@ export default function IndexBusiness() {
                 </div>
             </section>
 
-            <section className="section bg-light">
-                <div className="section-title text-center mb-8">
-                    <h6 className="text-primary ">Our Story</h6>
-                </div>
-                <div className="container">
+            <section className="section bg-light py-5">
+                {/* Our Story Section */}
+                <div className="container mb-5">
+                    <div className="section-title text-center mb-5">
+                        <h6 className="text-primary">Our Story</h6>
+                    </div>
                     <div className="row align-items-center">
-                        <div className="col-lg-5 col-md-6">
-                            <Image src="/images/about.jpg" width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} className="img-fluid rounded shadow" alt="" />
+                        <div className="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                            <Image
+                                src="/images/about.jpg"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: '70%', height: 'auto' }}
+                                className="img-fluid rounded shadow"
+                                alt="About TL Company"
+                            />
                         </div>
-
-                        <div className="col-lg-7 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div className="col-lg-7 col-md-6">
                             <div className="section-title ms-lg-5">
-                                <h4 className="title mb-3">Story of TL Company</h4>
-                                <p className="text-muted">Founded in 2020, TL Technologies has evolved from a small startup into a leading technology solutions provider. Our journey began with a simple mission: to leverage technology to solve real-world problems. Over the years, we have expanded our services, built a talented team, and established a reputation for innovation and excellence.</p>
-                            </div>
-                            <div className="section-title ms-lg-5">
-                                <h4 className="title mb-3">About Our CEO</h4>
-                                <p className="text-muted">Sangeetha C. Gopalakrishnan is the visionary Founder and CEO of TL Technologies Pvt. Ltd. With a strong leadership style, clear vision, and the ability to inspire others, she has been the driving force behind the company's success. With over 20 years of experience in the USA in program management, cable television, and SaaS industries, Sangeetha has a proven track record in managing IT vendor contracts, website creation, hosting, IT operations, and application development. Her courage to take risks and initiate enhanced communication with clients has set a high standard for the organization. Known for her excellent communication and negotiation skills, Sangeetha values collaboration over competition, ensuring clients receive authentic and trustworthy services.</p>
+                                <h4 className="title mb-4">Story of TL Company</h4>
+                                <p className="text-muted">
+                                    Founded in 2020, TL Technologies has evolved from a small startup into a leading technology solutions provider. Our journey began with a simple mission: to leverage technology to solve real-world problems. Over the years, we have expanded our services, built a talented team, and established a reputation for innovation and excellence.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                {/* <div className="container-fluid mt-100 mt-60">
-                    <Team />
-                </div> */}
 
-                <Counter />
+                {/* About Our CEO Section */}
+                <div className="container">
+                    <div className="section-title text-center mb-5">
+                        <h6 className="text-primary">About Our CEO</h6>
+                    </div>
+                    <div className="row align-items-center">
+                        <div className="col-lg-7 col-md-6 order-2 order-md-1">
+                            <div className="section-title ms-lg-5">
+                                <h4 className="title mb-4">Sangeetha C. Gopalakrishnan</h4>
+                                <p className="text-muted">
+                                    Sangeetha C. Gopalakrishnan is the visionary Founder and CEO of TL Technologies Pvt. Ltd. With a strong leadership style, clear vision, and the ability to inspire others, she has been the driving force behind the company's success. With over 20 years of experience in the USA in program management, cable television, and SaaS industries, Sangeetha has a proven track record in managing IT vendor contracts, website creation, hosting, IT operations, and application development. Her courage to take risks and initiate enhanced communication with clients has set a high standard for the organization. Known for her excellent communication and negotiation skills, Sangeetha values collaboration over competition, ensuring clients receive authentic and trustworthy services.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-5 col-md-6 order-1 order-md-2 mb-4 mb-lg-0">
+                            <Image
+                                src="/images/about.jpg"
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: '70%', height: 'auto' }}
+                                className="img-fluid rounded shadow"
+                                alt="About Sangeetha C. Gopalakrishnan"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                {/* Optional Team Section */}
+                {/* <div className="container-fluid mt-100 mt-60">
+        <Team />
+    </div> */}
+
+
             </section>
 
             {/* need to remove            
@@ -98,7 +134,11 @@ export default function IndexBusiness() {
             </section> */}
             <Cta />
             <section className="section">
+
                 <ClientTwo />
+                <div className="container mt-5">
+                    <Counter />
+                </div>
                 <div className="container mt-100 mt-60">
                     <BlogTwo />
                 </div>

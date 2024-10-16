@@ -109,7 +109,7 @@ export default function NavbarTwo({ navClass, manuClass, navDark }) {
                             </li>
 
 
-                            <li className={`${["/page-services-two","/portfolio-masonry-three", "/page-faqs", "/page-comingsoon", "/page-maintenance", "/page-error"].includes(manu) ? "active" : ""} has-submenu parent-menu-item`}>
+                            <li className={`${["/page-services-two", "/portfolio-masonry-three", "/page-faqs", "/page-comingsoon", "/page-maintenance", "/page-error"].includes(manu) ? "active" : ""} has-submenu parent-menu-item`}>
                                 <Link href="#">Features</Link><span className="menu-arrow"></span>
                                 <ul className="submenu">
                                     <li className={manu === "/page-services-two" || "" ? "active" : ""}><Link href="/page-services-two" className="sub-menu-item">Product & Services</Link></li>
@@ -127,9 +127,9 @@ export default function NavbarTwo({ navClass, manuClass, navDark }) {
                                         <li className={manu === "/page-single-service" || "" ? "active" : ""}><Link href="/page-single-service" className="sub-menu-item">Single Service </Link></li>
                                     </ul> 
                                 </li> */}
-                                    <li><Link href="/page-faqs" className="sub-menu-item">FAQs</Link></li>
-
-                                    <li><Link href="/page-team" className="sub-menu-item">Team</Link></li>
+                                    <li className={manu === "/page-faqs" || "" ? "active" : ""}><Link href="/page-faqs" className="sub-menu-item">FAQs</Link></li>
+                                    <li className={manu === "/page-privacy-policy" || "" ? "active" : ""}><Link href="/page-privacy-policy" className="sub-menu-item">Privacy Policy</Link></li>
+                                    <li className={manu === "/page-terms-conditions" || "" ? "active" : ""}><Link href="/page-terms-conditions" className="sub-menu-item">Terms & Conditions</Link></li>
                                     <li className={`${["/page-comingsoon", "/page-maintenance", "/page-error"].includes(manu) ? "active" : ""} has-submenu parent-menu-item`}><Link href="#">Special</Link><span className="submenu-arrow"></span>
                                         <ul className="submenu">
                                             <li className={manu === "/page-comingsoon" || "" ? "active" : ""}><Link href="/page-comingsoon" className="sub-menu-item">Coming Soon</Link></li>

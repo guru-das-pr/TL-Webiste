@@ -17,8 +17,7 @@ export default function HeroSlider() {
                                 <div className="row justify-content-center">
                                     <div className="col-12">
                                         <div className="title-heading text-center">
-                                            <h1 className="fw-semibold display-3 text-white title-dark mb-4">Win the Global Market with
-                                                Our IT Solutions</h1>
+                                            <h1 className="fw-semibold display-3 text-white title-dark mb-4">Driving Innovation, Empowering Businesses</h1>
                                             <p className="para-desc mx-auto text-white-50">Providing our clients with personalized, affordable, and strategic IT consulting services.</p>
 
                                             <div className="mt-4 pt-2">
@@ -38,7 +37,7 @@ export default function HeroSlider() {
                             <div className="row justify-content-center">
                                 <div className="col-12">
                                     <div className="title-heading text-center">
-                                        <h1 className="fw-semibold display-3 text-white title-dark mb-4">Excellence through Stunning Graphics</h1>
+                                        <h1 className="fw-semibold display-3 text-white title-dark mb-4">Your Trusted Partner for Digital Excellence and Growth</h1>
                                         <p className="para-desc mx-auto text-white-50">Take your business to the next level with TL Technologies' stunning graphic design services and grow without a hitch.</p>
 
                                         <div className="mt-4 pt-2">
@@ -57,8 +56,7 @@ export default function HeroSlider() {
                             <div className="row justify-content-center">
                                 <div className="col-12">
                                     <div className="title-heading text-center">
-                                        <h1 className="fw-semibold display-3 text-white title-dark mb-4">Digital Marketing Solutions:
-                                            We’ll Get You Noticed!</h1>
+                                        <h1 className="fw-semibold display-3 text-white title-dark mb-4">Transforming Ideas into Reality with Cutting-Edge Technology Solutions</h1>
                                         <p className="para-desc mx-auto text-white-50">Let us help you grow your business online and offline by providing online marketing services tailored to your needs.</p>
 
                                         <div className="mt-4 pt-2">
