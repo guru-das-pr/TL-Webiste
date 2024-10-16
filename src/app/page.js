@@ -85,25 +85,12 @@ export default function IndexBusiness() {
                     </div>
                 </div>
 
-                <div className="container-fluid mt-100 mt-60">
+                {/* <div className="container-fluid mt-100 mt-60">
                     <Team />
-                </div>
+                </div> */}
 
                 <Counter />
             </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             {/* need to remove            
             <section className="section">

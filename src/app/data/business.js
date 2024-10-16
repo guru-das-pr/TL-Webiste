@@ -16,11 +16,6 @@ export const aboutData = [
         title: 'Digital Marketing',
         desc: 'Comprehensive digital marketing strategies to enhance your online presence and drive growth.'
     },
-    {
-        icon: AiOutlineLock,
-        title: 'Security Enhanced',
-        desc: 'Robust security measures to protect your digital assets.'
-    },
 ];
 
 export const counterData = [
