@@ -16,6 +16,7 @@ import Cta from "./components/business/cta";
 import Counter from "./components/business/counter";
 
 import { aboutData } from "./data/business";
+import { AiOutlineCheckCircle } from "react-icons/ai";
 
 export default function IndexBusiness() {
     return (
@@ -62,51 +63,23 @@ export default function IndexBusiness() {
             </section>
 
             <section className="section bg-light">
+                <div className="section-title text-center mb-8">
+                    <h6 className="text-primary ">Our Story</h6>
+                </div>
                 <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-12 mb-4 pb-2">
-                            <div className="section-title text-center">
-                                <h6 className="text-primary">Our Skills</h6>
-                                <h4 className="title fw-semibold mt-2 mb-3">We are a team of talented business & investment experts</h4>
-                                <p className="text-muted para-desc mx-auto mb-0">Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="row">
-                        <div className="col-md-6">
-                            <div className="progress-box mt-4">
-                                <h6 className="text-muted fw-normal">Research</h6>
-                                <div className="progress position-relative">
-                                    <div className="progress-bar position-relative bg-primary" style={{ width: '84%' }}></div>
-                                    <div className="progress-value d-block text-muted h6 fw-normal">84%</div>
-                                </div>
-                            </div>
-
-                            <div className="progress-box mt-4">
-                                <h6 className="text-muted fw-normal">Sales & Trading</h6>
-                                <div className="progress position-relative">
-                                    <div className="progress-bar position-relative bg-primary" style={{ width: '74%' }}></div>
-                                    <div className="progress-value d-block text-muted h6 fw-normal">75%</div>
-                                </div>
-                            </div>
+                    <div className="row align-items-center">
+                        <div className="col-lg-5 col-md-6">
+                            <Image src="/images/about.jpg" width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} className="img-fluid rounded shadow" alt="" />
                         </div>
 
-                        <div className="col-md-6">
-                            <div className="progress-box mt-4">
-                                <h6 className="text-muted fw-normal">Investment</h6>
-                                <div className="progress position-relative">
-                                    <div className="progress-bar position-relative bg-primary" style={{ width: '79%' }}></div>
-                                    <div className="progress-value d-block text-muted h6 fw-normal">79%</div>
-                                </div>
+                        <div className="col-lg-7 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                            <div className="section-title ms-lg-5">
+                                <h4 className="title mb-3">Story of TL Company</h4>
+                                <p className="text-muted">Founded in 2020, TL Technologies has evolved from a small startup into a leading technology solutions provider. Our journey began with a simple mission: to leverage technology to solve real-world problems. Over the years, we have expanded our services, built a talented team, and established a reputation for innovation and excellence.</p>
                             </div>
-
-                            <div className="progress-box mt-4">
-                                <h6 className="text-muted fw-normal">Finance</h6>
-                                <div className="progress position-relative">
-                                    <div className="progress-bar position-relative bg-primary" style={{ width: '95%' }}></div>
-                                    <div className="progress-value d-block text-muted h6 fw-normal">95%</div>
-                                </div>
+                            <div className="section-title ms-lg-5">
+                                <h4 className="title mb-3">About Our CEO</h4>
+                                <p className="text-muted">Sangeetha C. Gopalakrishnan is the visionary Founder and CEO of TL Technologies Pvt. Ltd. With a strong leadership style, clear vision, and the ability to inspire others, she has been the driving force behind the company's success. With over 20 years of experience in the USA in program management, cable television, and SaaS industries, Sangeetha has a proven track record in managing IT vendor contracts, website creation, hosting, IT operations, and application development. Her courage to take risks and initiate enhanced communication with clients has set a high standard for the organization. Known for her excellent communication and negotiation skills, Sangeetha values collaboration over competition, ensuring clients receive authentic and trustworthy services.</p>
                             </div>
                         </div>
                     </div>
@@ -119,9 +92,23 @@ export default function IndexBusiness() {
                 <Counter />
             </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {/* need to remove            
             <section className="section">
                 <PricingThree />
-            </section>
+            </section> */}
             <Cta />
             <section className="section">
                 <ClientTwo />
