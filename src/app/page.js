@@ -15,7 +15,7 @@ import VideoModal from "./components/business/videoModal";
 import Cta from "./components/business/cta";
 import Counter from "./components/business/counter";
 
-import { aboutData } from "./data/business";
+import { aboutData, servicesData } from "./data/business";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import { FaCircle } from "react-icons/fa";
 
@@ -42,12 +42,12 @@ export default function IndexBusiness() {
                                 <h4 className="title fw-semibold mt-2 mb-3">We specialize in delivering cutting-edge solutions across various domains.</h4>
                             </div>
                             <div className="row g-3">
-                                {aboutData.map((item, index) => (
+                                {servicesData.map((item, index) => (
                                     <div className="col-lg-6 col-12" key={index}>
                                         <div className="card features feature-primary h-100">
                                             <div className="card-body py-2 px-3 d-flex align-items-center">
                                                 <FaCircle className="text-primary me-2 flex-shrink-0" size={6} />
-                                                <Link href="/page-single-service" className="h6 title text-dark mb-0">
+                                                <Link href={`/page-single-service/${item.slug}`} className="h6 title text-dark mb-0">
                                                     {item.title}
                                                 </Link>
                                             </div>
